@@ -1,0 +1,150 @@
+#page-login {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  top: 0;
+}
+
+@media not print {
+  #page-login {
+    background-color: #0f172a;
+    /* Dynamic Fog/Glare Effect */
+    background-image:
+      radial-gradient(circle at calc(var(--mouse-x, 0.5) * 100%) calc(var(--mouse-y, 0.5) * 100%),
+        rgba(56, 189, 248, 0.15) 0%,
+        transparent 50%),
+      radial-gradient(circle at calc(100% - (var(--mouse-x, 0.5) * 100%)) calc(100% - (var(--mouse-y, 0.5) * 100%)),
+        rgba(99, 102, 241, 0.1) 0%,
+        transparent 50%);
+    transition: background 0.1s ease;
+  }
+}
+
+#login-panel {
+  align-self: center;
+  /* Glassmorphism Effect */
+  background: rgba(30, 41, 59, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  /* Modern rounded corners */
+
+  /* 1px needed to prevent bottom margin to disappear when using small screens */
+  padding: 40px 50px;
+
+  /* Dynamic Panel Tilt/Glow */
+  transform:
+    perspective(1000px) rotateX(calc((var(--mouse-y, 0.5) - 0.5) * -10deg)) rotateY(calc((var(--mouse-x, 0.5) - 0.5) * 10deg));
+  box-shadow:
+    0 20px 50px rgba(0, 0, 0, 0.5),
+    0 0 0 1px rgba(255, 255, 255, 0.1);
+  transition: transform 0.1s ease, box-shadow 0.3s ease;
+}
+
+#login-panel h1 {
+  text-align: center;
+  margin: 0 0 40px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  /* Bolder modern font */
+  font-size: 48px;
+  letter-spacing: -1px;
+  /* Modern tight spacing */
+  width: 100%;
+  color: #f1f5f9;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+#login-panel input {
+  width: 100%;
+  display: block;
+  font-size: 18px;
+}
+
+#login-panel select {
+  width: 100%;
+  font-size: 14px;
+}
+
+#login-panel select option#eauth-default {
+  color: gray;
+}
+
+.attribution {
+  display: block;
+  opacity: 0.4;
+  font-size: 15px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.attribution img {
+  width: 25px;
+}
+
+#notice {
+  height: 0;
+  overflow-y: hidden;
+  color: white;
+  padding: 0;
+  border-radius: 2px;
+  text-align: center;
+  animation-name: show-notice;
+  animation-iteration-count: 1;
+  animation-duration: 5s;
+}
+
+@keyframes show-notice {
+  0% {
+    height: 0;
+    padding: 0;
+    margin-bottom: 15px;
+  }
+
+  20% {
+    height: 38px;
+    padding: 9px 0;
+    margin-bottom: 15px;
+  }
+
+  80% {
+    height: 38px;
+    padding: 9px 0;
+    margin-bottom: 15px;
+  }
+
+  100% {
+    height: 0;
+    padding: 0;
+    margin-bottom: 0;
+  }
+}
+
+#notice.notice-session-expired,
+#notice.notice-session-cancelled {
+  /* keep these visible because user is likely not present when this happens */
+  animation-name: show-notice-stay;
+  height: 38px;
+  padding: 9px 0;
+  margin-bottom: 15px;
+}
+
+@keyframes show-notice-stay {
+  0% {
+    height: 0;
+    padding: 0;
+  }
+
+  20% {
+    height: 38px;
+    padding: 9px 0;
+  }
+}
+
+.motd {
+  margin-bottom: 15px;
+}
