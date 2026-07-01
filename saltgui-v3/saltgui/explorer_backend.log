@@ -1,0 +1,201 @@
+nohup: ignoring input
+Independent Explorer Backend started on port 8000
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /read {'path': ['/srv/salt/test.txt']}
+Request: POST /save {}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/pillar']}
+Request: GET /list {'path': ['/srv/pillar']}
+Request: GET /list {'path': ['/srv/pillar']}
+Request: GET /list {'path': ['/srv/pillar']}
+Request: GET /list {'path': ['/srv/pillar']}
+Request: GET /list {'path': ['/srv/pillar']}
+Request: GET /list {'path': ['/srv/pillar']}
+Request: GET /list {'path': ['/srv/pillar']}
+Request: GET /list {'path': ['/srv/pillar/crowdstrikepillar']}
+Request: GET /read {'path': ['/srv/pillar/crowdstrikepillar/pill.sls']}
+Request: GET /list {'path': ['/srv/pillar']}
+Request: GET /list {'path': ['/srv/pillar/crowdstrikepillar']}
+Request: GET /read {'path': ['/srv/pillar/crowdstrikepillar/pill.sls']}
+Request: GET /read {'path': ['/srv/pillar/top.sls']}
+Request: POST /save {}
+Request: GET /list {'path': ['/srv/pillar']}
+Request: GET /list {'path': ['/srv/pillar']}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/pillar']}
+Request: GET /list {'path': ['/srv/salt']}
+Request: POST /create_dir {}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/salt/test']}
+Request: POST /create_file {}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/salt/test']}
+Request: GET /read {'path': ['/srv/salt/test/test']}
+Request: POST /save {}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/pillar']}
+Request: GET /list {'path': ['/srv/pillar/crowdstrikepillar']}
+Request: GET /read {'path': ['/srv/pillar/crowdstrikepillar/pill.sls']}
+Request: GET /list {'path': ['/srv/pillar']}
+Request: GET /list {'path': ['/srv/pillar']}
+Request: GET /list {'path': ['/srv/pillar']}
+Request: GET /list {'path': ['/srv/pillar/crowdstrikepillar']}
+Request: GET /read {'path': ['/srv/pillar/crowdstrikepillar/pill.sls']}
+Request: POST /save {}
+Request: GET /list {'path': ['/srv/pillar']}
+Request: GET /list {'path': ['/srv/pillar']}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/salt/crowd']}
+Request: GET /list {'path': ['/srv/pillar']}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/pillar/crowdstrikepillar']}
+Request: GET /read {'path': ['/srv/pillar/crowdstrikepillar/pill.sls']}
+Request: POST /save {}
+Request: GET /list {'path': ['/srv/pillar']}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /read {'path': ['/srv/salt/test.txt']}
+Request: POST /save {}
+Request: GET /list {'path': ['/srv/salt/crowd']}
+Request: GET /read {'path': ['/srv/salt/crowd/crowd.sls']}
+Request: GET /list {'path': ['/srv/salt/test']}
+Request: GET /read {'path': ['/srv/salt/test.txt']}
+Request: GET /read {'path': ['/srv/salt/top.sls']}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/salt/test']}
+Request: GET /read {'path': ['/srv/salt/test/test']}
+Request: GET /list {'path': ['/srv/salt/crowd']}
+Request: POST /save {}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/salt/crowd']}
+Request: GET /list {'path': ['/srv/salt/test']}
+Request: GET /read {'path': ['/srv/salt/test/test']}
+Request: GET /read {'path': ['/srv/salt/crowd/crowd.sls']}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/salt/crowd']}
+Request: GET /read {'path': ['/srv/salt/crowd/crowd.sls']}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/salt/crowd']}
+Request: GET /read {'path': ['/srv/salt/crowd/crowd.sls']}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/salt/crowd']}
+Request: GET /read {'path': ['/srv/salt/crowd/crowd.sls']}
+Request: GET /list {'path': ['/srv/salt/test']}
+Request: GET /read {'path': ['/srv/salt/test/test']}
+Request: GET /read {'path': ['/srv/salt/crowd/crowd.sls']}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/pillar']}
+Request: GET /list {'path': ['/srv/pillar/crowdstrikepillar']}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/salt/test']}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/salt/crowd']}
+Request: GET /read {'path': ['/srv/salt/crowd/crowd.sls']}
+Request: GET /list {'path': ['/srv/salt/test']}
+Request: GET /read {'path': ['/srv/salt/test/test']}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/pillar']}
+Request: GET /list {'path': ['/srv/pillar']}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/pillar']}
+Request: GET /read {'path': ['/srv/pillar/top.sls']}
+Request: POST /save {}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/pillar']}
+Request: GET /list {'path': ['/srv/pillar/crowdstrikepillar']}
+Request: GET /read {'path': ['/srv/pillar/crowdstrikepillar/pill.sls']}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/pillar']}
+Request: GET /list {'path': ['/srv/pillar']}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/pillar']}
+Request: GET /list {'path': ['/srv/pillar']}
+Request: GET /list {'path': ['/srv/pillar']}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/pillar']}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/salt/crowd']}
+Request: GET /list {'path': ['/srv/pillar']}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/pillar']}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /read {'path': ['/srv/salt/test.txt']}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /read {'path': ['/srv/salt/top.sls']}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /read {'path': ['/srv/salt/top.sls']}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/salt']}
+Request: POST /create_dir {}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/salt/crowd']}
+Request: POST /create_file {}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/salt/test']}
+Request: POST /create_file {}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/salt/test']}
+Request: GET /read {'path': ['/srv/salt/test/pp']}
+Request: GET /list {'path': ['/srv/salt/crowd']}
+Request: GET /list {'path': ['/srv/salt']}
+Request: POST /create_dir {}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/salt/cc']}
+Request: GET /list {'path': ['/srv/salt/test']}
+Request: GET /read {'path': ['/srv/salt/test/test']}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/salt/crowd']}
+Request: GET /read {'path': ['/srv/salt/crowd/test']}
+Request: POST /save {}
+Request: GET /list {'path': ['/srv/salt/test']}
+Request: GET /read {'path': ['/srv/salt/test/test']}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /read {'path': ['/srv/salt/top.sls']}
+Request: GET /list {'path': ['/srv/pillar']}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/salt/cc']}
+Request: GET /list {'path': ['/srv/salt/crowd']}
+Request: GET /list {'path': ['/srv/salt/test']}
+Request: POST /create_file {}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/salt/test']}
+Request: GET /read {'path': ['/srv/salt/test/top.sls']}
+Request: POST /save {}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/salt']}
+Request: GET /list {'path': ['/srv/pillar']}
+Request: GET /list {'path': ['/srv/pillar/crowdstrikepillar']}
+Request: GET /read {'path': ['/srv/pillar/crowdstrikepillar/pill.sls']}
+Request: POST /save {}
+Request: GET /list {'path': ['/srv/pillar']}
+Request: GET /read {'path': ['/srv/pillar/top.sls']}
+Request: POST /save {}
+Request: GET /list {'path': ['/srv/pillar/crowdstrikepillar']}----------------------------------------
+Exception occurred during processing of request from ('192.168.1.1', 62045)
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/socketserver.py", line 318, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python3.12/socketserver.py", line 349, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.12/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/usr/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/srv/saltgui/explorer_backend.py", line 24, in do_GET
+    self.handle_request()
+  File "/srv/saltgui/explorer_backend.py", line 121, in handle_request
+    self.wfile.write(json.dumps(response_data).encode('utf-8'))
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------

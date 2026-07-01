@@ -1,0 +1,32 @@
+{
+  "presets": [
+    {
+      "label": "Ping",
+      "cmd": "test.ping"
+    },
+    {
+      "label": "Highstate",
+      "cmd": "state.apply"
+    },
+    {
+      "label": "Sync All",
+      "cmd": "saltutil.sync_all"
+    },
+    {
+      "label": "Check OS",
+      "cmd": "grains.get os"
+    },
+    {
+      "label": "Disk Usage",
+      "cmd": "disk.usage"
+    },
+    {
+      "label": "Package Update",
+      "cmd": "pkg.upgrade"
+    }
+    {
+      "label": "version",
+      "cmd": "salt-minion --version"
+    }
+  ]
+}
